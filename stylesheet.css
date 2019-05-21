@@ -1,0 +1,23 @@
+#firstOne{
+	background-color:#830463;
+	width:800px;
+	height:200px;
+}
+#middleOne{
+	background-color:#392434;
+	width:800px;
+	height:800px;
+}
+#lastOne{
+	background-color:#830463;
+	width:800px;
+	height:200px;
+}
+.inner{
+	font-size:12pt;
+	color:black;
+    background-color:white;
+    border-radius:5px;
+    width:400px;
+    height:100px;
+}
