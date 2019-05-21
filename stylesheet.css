@@ -1,23 +1,113 @@
-#firstOne{
-	background-color:#830463;
-	width:800px;
-	height:200px;
+#maincontainer{
+	height:595px;
+	width:1000px;
+	background-image:url(oldbook.png);
+	margin:auto;
+	margin-top:20px;
 }
-#middleOne{
-	background-color:#392434;
-	width:800px;
-	height:800px;
+#header{
+	/*background-color:red;*/
+	height:100px;
+	width:1000px;
+	text-align:left;
+	font-family:Copperplate Gothic Light;
+	font-size:60px;
+	position:relative;
+	top:30px;
+	left:180px;
 }
-#lastOne{
-	background-color:#830463;
-	width:800px;
-	height:200px;
+#leftcontent{
+	/*background-color:red;*/
+	height:430px;
+	width:345px;
+	float:left;
+	position:relative;
+	left:145px;
+	top:20px;
 }
-.inner{
-	font-size:12pt;
+#content{
+	font-size:30px;
+	font-family:Copperplate Gothic Light;
+
+}
+.navbutton{
+	font-size:30px;
+	font-family:Copperplate Gothic Light;
+	margin-top:15px;
 	color:black;
-    background-color:white;
-    border-radius:5px;
-    width:400px;
-    height:100px;
+}
+.navbutton:hover{
+	font-size:40px;
+	font-family:Impact;
+	color:purple;
+}
+a{
+	text-decoration:none;
+}
+.navbutton:active{
+	font-size:40px;
+	font-family:Impact;
+	color:white;
+}
+#rightcontent{
+	/*background-color:red;*/
+	height:430px;
+	width:345px;
+	float:right;
+	position:relative;
+	right:140px;
+	top:10px;
+	color:brown;
+	font-size:16px;
+}
+#Picture1{
+	position:relative;
+	top:30px;
+}
+#Picture2{
+	position:relative;
+	top:30px;
+}
+iframe{
+	position:relative;
+	top:10px;
+}
+#Button1{
+	width:135px;
+	height:30px;
+	position:relative;
+	top:10px;
+	left:220px;
+	text-decoration:none;
+	color:red;
+	font-size:30px;
+	text-align:center;
+	/*background-color:blue;*/
+}
+#Button2{
+	width:70px;
+	height:30px;
+	position:relative;
+	top:20px;
+	left:280px;
+	text-decoration:none;
+	color:red;
+	font-size:30px;
+	text-align:center;
+	/*sbackground-color:blue;*/
+}
+span{
+	font-size:40px;
+	color:brown;
+}
+#footer{
+	/*background-color:red;*/
+	height:50px;
+	width:1000px;
+	clear:both;
+	position:relative;
+	top:50px;
+	font-size:50px;
+	text-align:center;
+	font-family:Arial;
 }
